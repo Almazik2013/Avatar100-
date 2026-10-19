@@ -1,0 +1,44 @@
+header{
+    background-image: url(../img/header-backround.webp);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 39px;
+    height: 150px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 38px;
+}
+
+li{
+    list-style: none;
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #94CFFF;
+}
+
+.header-button{
+    font-weight: 600;
+    font-style: Semi Bold;
+    font-size: 20px;
+    leading-trim: NONE;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    background-color: #0B0E66;
+    color: #26C7EA;
+    border: 2px solid #26C7EA;
+    padding-top: 9px;
+    padding-bottom: 7.38px;
+    padding-left: 38px;
+    padding-right: 38px;
+    border-radius: 35px 0px 35px 0px;
+}

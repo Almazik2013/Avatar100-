@@ -1,0 +1,65 @@
+@import "variables";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $font-family;
+    color: $text-color;
+    background-color: $white;
+}
+
+.footer {
+    min-height: 130px;
+    background-color: $blue;
+    background-image:
+        linear-gradient(rgba(9, 44, 66, 0.78),
+            rgba(9, 44, 66, 0.88)),
+        url("/images/foto.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: grid;
+    grid-template-columns: 120px 1fr 1.3fr;
+    grid-template-rows: 75px 20px;
+    align-items: center;
+    column-gap: 18px;
+    padding: 15px max(20px, calc((100% - 475px) / 2));
+    position: relative;
+}
+
+.footer>img {
+    width: 90px;
+    height: auto;
+    object-fit: contain;
+    justify-self: center;
+}
+
+.footer>img {
+    border-right: 1px solid $card-bg;
+    box-sizing: content-box;
+    padding-right: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 9px;
+    min-width: 0;
+}
+
+.footer-links p {
+    font-size: 20px;
+    white-space: nowrap;
+}
+
+.footer>p {
+    grid-column: 1 / -1;
+    text-align: center;
+    font-size: 14px;
+    align-self: end;
+}
